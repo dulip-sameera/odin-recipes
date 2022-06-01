@@ -1,4 +1,5 @@
 @import url("../css/fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -12,6 +13,7 @@ body {
 }
 
 .home {
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: rgb(252, 180, 112);
     padding: 10px;
@@ -53,6 +55,7 @@ body {
 }
 
 .dis {
+    font-family: 'Roboto', sans-serif;
     color: rgba(252, 180, 112, 0.815);
     font-size: 20px;
     margin-bottom: 2%;
@@ -62,6 +65,7 @@ body {
 }
 
 .sub-title {
+    font-family: 'Roboto', sans-serif;
     color: rgba(252, 180, 112, 0.815);
     font-size: 30px;
     margin-top: 2%;
@@ -69,6 +73,7 @@ body {
 }
 
 li {
+    font-family: 'Roboto', sans-serif;
     color: rgba(252, 180, 112, 0.815);
     font-size: 20px;
     text-align: justify;
