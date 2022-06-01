@@ -1,0 +1,78 @@
+@import url("../css/fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1000px;
+    margin: 5% auto !important;
+    background-color: rgb(90, 41, 41);
+}
+
+.home {
+    font-size: 24px;
+    color: rgb(252, 180, 112);
+    padding: 10px;
+    text-decoration: none;
+
+
+    overflow: hidden;
+    background-color: rgb(90, 41, 41);
+    position: fixed;
+    top: 10px;
+    left: 90%;
+    border-radius: 100%;
+
+    transition-property: color, background-color;
+    transition-duration: 300ms;
+}
+
+.home:hover {
+    color: rgb(90, 41, 41);
+    background-color: rgb(252, 180, 112);
+}
+
+.main-title {
+    font-family: "hot-pizza";
+    font-size: 64px;
+    color: rgb(252, 180, 112);
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 50%;
+    height: auto;
+    border-radius: 5px
+}
+
+.dis {
+    color: rgba(252, 180, 112, 0.815);
+    font-size: 20px;
+    margin-bottom: 2%;
+    text-align: justify;
+    position: relative;
+    left: 45px;
+}
+
+.sub-title {
+    color: rgba(252, 180, 112, 0.815);
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+li {
+    color: rgba(252, 180, 112, 0.815);
+    font-size: 20px;
+    text-align: justify;
+    margin: 5px;
+    position: relative;
+    left: 45px;
+}

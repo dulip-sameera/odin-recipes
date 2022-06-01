@@ -8,13 +8,13 @@
 body {
     max-width: 1000px;
     margin: 5% auto !important;
-    background-color: #ff6b6b;
+    background-color: rgb(90, 41, 41);
 }
 
 .title {
     font-family: hot-pizza;
     font-size: 72px;
-    color: #F2C94C;
+    color: rgb(252, 180, 112);
     text-align: center;
     margin-bottom: 4%;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .list {
-    margin-left: 35%;
+    margin-left: 25%;
     font-family: hot-pizza;
 }
 
@@ -41,4 +41,20 @@ body {
     background-repeat: no-repeat;
     background-position: left ;
     background-size: 40px;
+}
+
+li{
+    color: rgb(252, 180, 112);
+    transition-property: background-color, color;
+    transition-duration: 600ms;
+}
+
+li:hover {
+    color: rgb(90, 41, 41);
+    background-color: rgb(252, 180, 112);
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
 }
